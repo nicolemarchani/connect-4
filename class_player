@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+class Jugador{
+      
+      public:
+             char player;
+       Jugador(char player){
+                   this-> player=player;
+                   }
+      
+      void cambia(char nuevo){
+      this-> player=nuevo;
+      }
+};
